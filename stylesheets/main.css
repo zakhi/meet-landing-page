@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;900&display=swap');
 
 * {
     margin: 0;
@@ -8,15 +8,15 @@
 
 body {
     font-family: 'Red Hat Display', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 26px;
     text-align: center;
     color: #87879d;
     background: #fafafa;
 }
 
-h1, h2, h3, .button, .section-number {
+h1, h2, .sub-heading, .button, .section-number {
     font-weight: 900;
 }
 
@@ -34,9 +34,12 @@ h1, h2 {
     color: #28283d;
 }
 
-h3 {
-    font-size: 16px;
-    color :#4d96a9;
+img {
+    display: block;
+}
+
+.sub-heading {
+    color: #4d96a9;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -81,13 +84,16 @@ header {
     margin: 3em 0 3.375em;
 }
 
+header img {
+    margin: 0 auto;
+}
+
 main {
     overflow: hidden;
     margin-bottom: 4em;
 }
 
 main img {
-    display: block;
     margin: 0 -5.5%;
     width: 111%;
     object-fit: cover;
@@ -161,7 +167,7 @@ main p {
     margin-top: 0.75em;
 }
 
-.section-1 h3 {
+.section-1 .sub-heading {
     margin-top: 4em;
 }
 
@@ -210,6 +216,7 @@ main p {
 
     h2 {
         font-size: 2.5rem;
+        line-height: 1.1;
     }
 
     header {
@@ -256,7 +263,7 @@ main p {
         padding: 0 6.125em;
     }
 
-    .section-1 h3 {
+    .section-1 .sub-heading {
         margin-top: 3em;
     }
 
@@ -292,7 +299,7 @@ main p {
         display: unset;
     }
 
-    main h1 {
+    h1 {
         font-size: 4em;
     }
 
@@ -329,7 +336,7 @@ main p {
     }
 
     .main-text {
-        padding: 0 5.5em;
+        padding: 0 6em;
     }
 
     main h1 {
@@ -358,7 +365,7 @@ main p {
         padding: 0;
     }
 
-    .section-1 h3 {
+    .section-1 .sub-heading {
         margin-top: 5em;
     }
 
